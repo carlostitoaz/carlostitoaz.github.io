@@ -1,0 +1,4 @@
+a:link { color:blue; } /* links não visitados */
+a:visited { color:maroon;  } /* links visitados */
+a:hover { color:yellow;  } /* passar o mouse por cima */
+a:active { color:darkgreen; } /* quando mantem o mouse precionado */
