@@ -1,0 +1,8 @@
+/*https://www.w3schools.com/charsets/ref_utf_geometric.asp*/
+
+a:link { color:blue; } /* links não visitados */
+a:visited { color:maroon;  } /* links visitados */
+a:hover { color:yellow;  } /* passar o mouse por cima */
+a:active { color:darkgreen; } /* quando mantem o mouse precionado */
+
+li::before{ content: '\25CE'; }
