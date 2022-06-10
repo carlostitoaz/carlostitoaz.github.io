@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	
+	<body>
+		<h1>Locadora de carros</h1>
+		<h2>Preencha o formulário abaixo</h2>
+		<form action="" method="">
+			<fieldset>
+				<legend>Dados</legend>
+				
+				<label for="nome">Nome:</label> <input type="text" value="" name="nome" id="nome"/><br><br>
+				
+				<label for="numero">Número de telefone:</label> <input type="number" value="" name="numero" id="numero"/><br><br>
+				
+				<label for="cidade_r">Cidade de Retirada:</label> 	
+				<select id="cidade_r" name="cidade_retirada">
+					<option value="campos">Campos dos Goytacazes - RJ</option>
+					<option value="rio">Rio de Janeiro - RJ</option>
+					<option value="vitoria">Vitória - ES</option>
+				</select><br><br>
+				
+				<label for="cidade_e">Cidade de entrada:</label> 
+				<select id="cidade_e" name="cidade_entrada">
+					<option value="campos">Campos dos Goytacazes - RJ</option>
+					<option value="rio">Rio de Janeiro - RJ</option>
+					<option value="vitoria">Vitória - ES</option>
+				</select><br><br>
+				
+				<label for="data_retirada">Data retirada:</label> <input type="date" value="" name="data_retirada" id="data_retirada"/><br><br>
+				
+				<label for="data_devolucao">Data devolução:</label> <input type="date" value="" name="data_devolucao" id="data_devolucao"/><br><br>
+				
+				<label for="tipo_carro">Tipo de carro:</label> 
+				<select id="tipo_carro" name="tipo_carro">
+					<option value="basico">Básico (R$ 119,00)</option>
+					<option value="basico_ar">Básico com Ar (R$ 199,00)</option>
+					<option value="executivo">Executivo(R$ 299,00)</option>
+				</select><br><br>
+			</fieldset>
+		
+			<input value="Enviar" type="button" onclick="funcao_locadora()"/>
+			<input type="reset" value="Limpar"/>
+		</form>
+		
+		
+		
+		<span id="resultado">Resultado</span>
+		
+		
+	</body>
+	
+	<script type="text/javascript" src="javascript.js"></script>
+</html>
