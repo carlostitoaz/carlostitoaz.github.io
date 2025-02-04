@@ -1,0 +1,39 @@
+header{
+    background-color:darkgray;
+}
+h1{
+    color: white;
+}
+nav{
+    float: left;
+    height: 500px;
+    width: 150px;
+    margin-right: 10px;
+    border-right: 1px solid rgb(209, 208, 208);
+}
+
+ul{
+   
+    list-style-type: none;
+    display: inline-block;
+}
+li{
+    padding: 10px 5px;
+    border-bottom: 1px solid darkgray;
+    background-color:rgb(228, 228, 228);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color:darkgray;  
+    margin: 0;
+    position: relative;
+    
+}
+
+footer{
+    position: relative;
+}
